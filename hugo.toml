@@ -1,0 +1,8 @@
+baseURL = "https://hfc.uw.rso/"
+locale = 'en-us'
+title = "Husky Flying Club"
+
+[params]
+  description = "UW's premier aviation club"
+  discord = "https://discord.gg/discord_link"
+  youtube = "https://youtube.com/youtube_link"
