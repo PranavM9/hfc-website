@@ -1,10 +1,28 @@
 <section class="hero">
-  <video autoplay muted loop playsinline>
-    <source src="/video/hero.mp4" type="video/mp4">
-  </video>
-  <div class="hero-content">
-    <h1>Husky Flying Club</h1>
-    <p>Build. Fly. Compete.</p>
-    <a href="/join">Join the Club</a>
+  {{/* --- VIDEO BACKGROUND --- */}}
+  <div class="hero__video-wrapper">
+    <video
+      class="hero__video"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="/images/hero-poster.jpg"
+    >
+      <source src="https://pixabay.com/videos/download/video-32945_medium.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+  </div>
+ 
+  {{/* --- CONTENT --- */}}
+  <div class="hero__content">
+    <h1 class="hero__title">HUSKY FLYING CLUB</h1>
+    <p class="hero__slogan">Where Huskies Take Flight</p>
+  </div>
+ 
+  {{/* --- SCROLL INDICATOR --- */}}
+  <div class="hero__scroll-indicator" aria-hidden="true">
+    <span class="hero__scroll-line"></span>
+    <span class="hero__scroll-label">SCROLL</span>
   </div>
 </section>

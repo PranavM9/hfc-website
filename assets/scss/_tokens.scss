@@ -1,0 +1,56 @@
+// ============================================================
+// HFC DESIGN TOKENS
+// Single source of truth for design decisions.
+// ============================================================
+
+// --- COLORS ---
+:root {
+  --color-bg:         #0D0D0D;   // Primary background
+  --color-text:       #F0F4F8;   // Primary text
+  --color-metallic:   #CBD5E1;   // Borders, Secondary text, Subtle UI
+  --color-accent:     #0EA5E9;   // CTAs, hover states, highlights
+  --color-warning:    #DD2D4A;   // Selective emphasis
+  --color-overlay:    rgba(13, 13, 13, 0.55); // Video/image overlays
+}
+
+// --- TYPOGRAPHY ---
+:root {
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  // Scale
+  --text-xs:   0.75rem;   
+  --text-sm:   0.875rem;  
+  --text-base: 1rem;      
+  --text-lg:   1.25rem;   
+  --text-xl:   1.5rem;    
+  --text-2xl:  2rem;      
+  --text-3xl:  3rem;      
+  --text-4xl:  4.5rem;    
+  --text-5xl:  7rem;
+}
+
+// --- SPACING ---
+:root {
+  --space-xs:  0.5rem;    
+  --space-sm:  1rem;      
+  --space-md:  2rem;      
+  --space-lg:  4rem;      
+  --space-xl:  8rem;      
+}
+
+// --- TRANSITIONS ---
+:root {
+  --transition-fast:   150ms ease;
+  --transition-base:   300ms ease;
+  --transition-slow:   600ms ease;
+}
+
+// --- Z-INDEX SCALE ---
+:root {
+  --z-base:    0;
+  --z-raised:  10;
+  --z-overlay: 20;
+  --z-nav:     30;
+  --z-modal:   40;
+}
